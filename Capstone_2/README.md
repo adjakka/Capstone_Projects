@@ -55,3 +55,4 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
