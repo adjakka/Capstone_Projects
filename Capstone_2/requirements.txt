@@ -1,0 +1,119 @@
+asn1crypto==0.24.0
+attrs==17.4.0
+Automat==0.6.0
+blinker==1.4
+boto==2.44.0
+certifi==2018.1.18
+chardet==3.0.4
+click==6.7
+cloud-init==18.4
+colorama==0.3.7
+command-not-found==0.3
+configobj==5.0.6
+  - six [required: Any, installed: 1.12.0]
+constantly==15.1.0
+cryptography==2.1.4
+distro==1.0.1
+distro-info==0.18
+google-compute-engine==2.8.4
+httplib2==0.9.2
+hyperlink==17.3.1
+idna==2.6
+incremental==16.10.1
+Jinja2==2.10
+jsonpatch==1.16
+jsonpointer==1.10
+jsonschema==2.6.0
+Keras==2.2.4
+  - h5py [required: Any, installed: 2.9.0]
+    - numpy [required: >=1.7, installed: 1.16.1]
+    - six [required: Any, installed: 1.12.0]
+  - keras-applications [required: >=1.0.6, installed: 1.0.7]
+    - h5py [required: Any, installed: 2.9.0]
+      - numpy [required: >=1.7, installed: 1.16.1]
+      - six [required: Any, installed: 1.12.0]
+    - numpy [required: >=1.9.1, installed: 1.16.1]
+  - keras-preprocessing [required: >=1.0.5, installed: 1.0.8]
+    - numpy [required: >=1.9.1, installed: 1.16.1]
+    - six [required: >=1.9.0, installed: 1.12.0]
+  - numpy [required: >=1.9.1, installed: 1.16.1]
+  - pyyaml [required: Any, installed: 3.13]
+  - scipy [required: >=0.14, installed: 1.2.0]
+    - numpy [required: >=1.8.2, installed: 1.16.1]
+  - six [required: >=1.9.0, installed: 1.12.0]
+keyring==10.6.0
+  - secretstorage [required: Any, installed: 2.3.1]
+keyrings.alt==3.0
+language-selector==0.1
+MarkupSafe==1.0
+mock==2.0.0
+  - pbr [required: >=0.11, installed: 5.1.2]
+  - six [required: >=1.9, installed: 1.12.0]
+netifaces==0.10.4
+oauthlib==2.0.6
+opencv-python==4.0.0.21
+  - numpy [required: >=1.11.3, installed: 1.16.1]
+PAM==0.4.2
+pipdeptree==0.13.2
+  - pip [required: >=6.0.0, installed: 19.0.2]
+pyasn1==0.4.2
+pyasn1-modules==0.2.1
+pycrypto==2.6.1
+pygobject==3.26.1
+PyJWT==1.5.3
+pyOpenSSL==17.5.0
+pyserial==3.4
+python-apt==1.6.3
+python-debian==0.1.32
+pyxdg==0.25
+requests==2.18.4
+requests-unixsocket==0.1.5
+screen-resolution-extra==0.0.0
+service-identity==16.0.0
+ssh-import-id==5.7
+systemd-python==234
+tensorflow==1.12.0
+  - absl-py [required: >=0.1.6, installed: 0.7.0]
+    - six [required: Any, installed: 1.12.0]
+  - astor [required: >=0.6.0, installed: 0.7.1]
+  - gast [required: >=0.2.0, installed: 0.2.2]
+  - grpcio [required: >=1.8.6, installed: 1.18.0]
+    - six [required: >=1.5.2, installed: 1.12.0]
+  - keras-applications [required: >=1.0.6, installed: 1.0.7]
+    - h5py [required: Any, installed: 2.9.0]
+      - numpy [required: >=1.7, installed: 1.16.1]
+      - six [required: Any, installed: 1.12.0]
+    - numpy [required: >=1.9.1, installed: 1.16.1]
+  - keras-preprocessing [required: >=1.0.5, installed: 1.0.8]
+    - numpy [required: >=1.9.1, installed: 1.16.1]
+    - six [required: >=1.9.0, installed: 1.12.0]
+  - numpy [required: >=1.13.3, installed: 1.16.1]
+  - protobuf [required: >=3.6.1, installed: 3.6.1]
+    - setuptools [required: Any, installed: 40.7.3]
+    - six [required: >=1.9, installed: 1.12.0]
+  - six [required: >=1.10.0, installed: 1.12.0]
+  - tensorboard [required: >=1.12.0,<1.13.0, installed: 1.12.2]
+    - grpcio [required: >=1.6.3, installed: 1.18.0]
+      - six [required: >=1.5.2, installed: 1.12.0]
+    - markdown [required: >=2.6.8, installed: 3.0.1]
+    - numpy [required: >=1.12.0, installed: 1.16.1]
+    - protobuf [required: >=3.4.0, installed: 3.6.1]
+      - setuptools [required: Any, installed: 40.7.3]
+      - six [required: >=1.9, installed: 1.12.0]
+    - six [required: >=1.10.0, installed: 1.12.0]
+    - werkzeug [required: >=0.11.10, installed: 0.14.1]
+    - wheel [required: >=0.26, installed: 0.32.3]
+  - termcolor [required: >=1.1.0, installed: 1.1.0]
+  - wheel [required: >=0.26, installed: 0.32.3]
+tensorflow-hub==0.2.0
+  - numpy [required: >=1.12.0, installed: 1.16.1]
+  - protobuf [required: >=3.4.0, installed: 3.6.1]
+    - setuptools [required: Any, installed: 40.7.3]
+    - six [required: >=1.9, installed: 1.12.0]
+  - six [required: >=1.10.0, installed: 1.12.0]
+Twisted==17.9.0
+ufw==0.35
+unattended-upgrades==0.1
+urllib3==1.22
+xkit==0.0.0
+zope.interface==4.3.2
