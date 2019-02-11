@@ -16,8 +16,9 @@ Moreover, neural networks are being used for recommender systems. These models a
 </p>
 
 ### Explanation of some basic concepts before a deep dive ###
-
+<p align="justify">
 Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/notebooks/Concepts_explained.ipynb">jupyter notebok</a></small> which is part of the same project. I've tried to simplify the concepts of Transfer Learning, word embeddings and how they help us determine the semantic relationship between different sentences.
+ </p>
 
 ### Requirements ###
 
@@ -28,10 +29,8 @@ Please refer to this [requirements file](https://github.com/adjakka/Springboard_
 GPUs are used to dramatically increase the speed of tasks involving numerical computations in Python. While it isn't compulsary, I highly recommend using  GPU support for speed. If you're interesred in setting up Tensorflow with GPU support, you may want to refer to this [excellent guide by Arun Mandal](https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/comment-page-3/#comments).
 
 ### Outline of steps ###
-<p align="justify">
  1. Obtain the data from this  <small><a target="_blank" href="http://jmcauley.ucsd.edu/data/amazon/links.html">webiste</a></small>.
     I've tried this out for Amzon product files of 2 different categories: "Home and Kitchen" (Click <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Home_and_Kitchen.json.gz">here</a></small> for direct link), and "Office Products" (<small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Office_Products.json.gz">direct link</a></small>). Once downloaded, you may want to move the files into the raw data folder.
- </p> 
  2. Clean the data for analysis.
     Once the raw data files have been downloaded, they need to be unzipped. I was using Ubuntu 18.04. Here's how you would do it--> Navigate to the location of your raw data files. Then run the following commands (for Ubuntu users) using terminal:
     * gunzip meta_Home_and_Kitchen.json.gz
@@ -40,7 +39,7 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
     (Mac users may want to refer to this [guide](https://www.dummies.com/computers/macs/how-to-zip-and-unzip-files-on-your-mac/) to unzip files)
     
     You may want to move the files to the [interim data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/interim) after the above step.
-   Once the files have been unzipped, we'll have the json files in place. Json files aren't easy to work with and hence, its up to us to convert the data in this json file into a nice Pandas dataframe that we can use. The cleanup files can be found in the [interim data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/interim). But you may directly jump into the notebooks using the links below </p>:  
+   Once the files have been unzipped, we'll have the json files in place. Json files aren't easy to work with and hence, its up to us to convert the data in this json file into a nice Pandas dataframe that we can use. The cleanup files can be found in the [interim data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/interim). But you may directly jump into the notebooks using the links below:  
     * [Clean up Home and kitchen json](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/data/interim/Home_kitchen.ipynb)(for cleaning "Home and kitchen" json), 
     
     * [Clean up Office products json](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/data/interim/Office_products_cleanup.ipynb)(for Office products json file). 
@@ -53,7 +52,6 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
  4. Calculate the cosine similarities matrix of all the embeddings in the file.
  5. Plot the images of the products using the url in the source file.
  6. Analyze results and possibly the plot descriptions as well.
- </p> 
     Steps 3,4,5 and 6 can be followed by referring to my files in the [notebooks folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/notebooks) **[Please look for files with the word "semantic" here]**
   
  - - - -
