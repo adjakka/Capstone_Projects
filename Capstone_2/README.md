@@ -18,7 +18,8 @@ Moreover, neural networks are being used for recommender systems. These models a
 ### Sneak peek of what we're getting into ###
 
 So what am I really talking about? I'll show you in pictures. After all, a picture is worth thousands of words!
-![picture alt](https://github.com/adjakka/Capstone_trails/blob/master/Filters.JPG "Title is optional")
+![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Filters.JPG "Product and its related products")
+
 ### Explanation of some basic concepts before a deep dive ###
 <p align="justify">
 Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/notebooks/Concepts_explained.ipynb">jupyter notebok</a></small> which is part of the same project. I've tried to simplify the concepts of Transfer Learning, word embeddings and how they help us determine the semantic relationship between different sentences.
