@@ -20,9 +20,10 @@ Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Sp
  1. Obtain the data from this  <small><a target="_blank" href="http://jmcauley.ucsd.edu/data/amazon/links.html">webiste</a></small>.
     I've tried this out for Amzon product files of 2 different categories: "Home and Kitchen" (Click <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Home_and_Kitchen.json.gz">here</a></small> for direct link), and "Office Products" (<small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Office_Products.json.gz">direct link</a></small>).
  2. Clean the data for analysis.
-    Once the raw data files have been downloaded, they need to be unzipped. I was using Ubuntu 18.04. Here's how you would do it--> Navigate to the location of your raw data files. Then run the following commands:
+    Once the raw data files have been downloaded, they need to be unzipped. I was using Ubuntu 18.04. Here's how you would do it--> Navigate to the location of your raw data files. Then run the following commands (for Ubuntu users) using terminal:
     * gunzip meta_Home_and_Kitchen.json.gz
     * gunzip meta_Office_Products.json.gz
+    (Mac users may want to refer to this [guide](https://www.dummies.com/computers/macs/how-to-zip-and-unzip-files-on-your-mac/) to unzip files.
  3. Convert the descriptions column to a list and have that run through Tensorflow's Universal Sentence Encoder . This computes a numpy   array of length 512 for each description.
  4. Calculate the cosine similarities matrix of all the embeddings in the file.
  5. Plot the images of the products using the url in the source file.
