@@ -15,6 +15,10 @@ Any decent recommender model would have been trained using data from millions of
 Moreover, neural networks are being used for recommender systems. These models are designed using sophisticated state of the art architecture. The model needs to be designed first. Then it will be tested and modified again and again. Fine tuning deep learning models can be a monumental task. Now, what if I told you that we could come up with a decent recommender process that involves no training at all? Sounds too good to be true? Well, thanks to <small><a target="_blank" href="https://tfhub.dev/google/universal-sentence-encoder-large/3">Google's universal sentence encoder</a></small>, this is possible! Given a product description as text, the input will be mapped to a high dimensional vector of length 512. These "embeddings" are then used to compute similarities based on which practical recommendations can be made.
 </p>
 
+### Sneak peek of what we're getting into ###
+
+So what am I really talking about? I'll show you in pictures. After all, a picture is worth thousands of words!
+![picture alt](https://github.com/adjakka/Capstone_trails/blob/master/Filters.JPG "Title is optional")
 ### Explanation of some basic concepts before a deep dive ###
 <p align="justify">
 Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/notebooks/Concepts_explained.ipynb">jupyter notebok</a></small> which is part of the same project. I've tried to simplify the concepts of Transfer Learning, word embeddings and how they help us determine the semantic relationship between different sentences.
@@ -55,6 +59,6 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
  6. Analyze results and possibly the plot descriptions as well.
     Steps 3,4,5 and 6 can be followed by referring to my files in the [notebooks folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/notebooks) **[Please look for files with the word "semantic" here]**
     
-![picture alt](https://github.com/adjakka/Capstone_trails/blob/master/Filters.JPG "Title is optional")
+
   
  - - - -
