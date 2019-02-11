@@ -23,9 +23,9 @@ Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Sp
 ### Requirements ###
 
 Please refer to this [requirements file](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/requirements.txt) to install all dependencies needed for this project.
-<p align="justify">
-#### Installing Tensorflow-GPU (Optional) ####
 
+#### Installing Tensorflow-GPU (Optional) ####
+<p align="justify">
 GPUs are used to dramatically increase the speed of tasks involving numerical computations in Python. While it isn't compulsary, I highly recommend using  GPU support for speed. If you're interesred in setting up Tensorflow with GPU support, you may want to refer to this [excellent guide by Arun Mandal](https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/comment-page-3/#comments).
   </p>
 
