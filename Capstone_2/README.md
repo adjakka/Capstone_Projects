@@ -15,6 +15,14 @@ Moreover, neural networks are being used for recommender systems. These models a
 
 Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/notebooks/Concepts_explained.ipynb">jupyter notebok</a></small> which is part of the same project. I've tried to simplify the concepts of Transfer Learning, word embeddings and how they help us determine the semantic relationship between different sentences.
 
+### Requirements ###
+
+Please refer to this [requirements file](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/requirements.txt) to install all dependencies needed for this project.
+
+#### Installing Tensorflow-GPU (Optional) ####
+
+GPUs are used to dramatically increase the speed of tasks involving numerical computations in Python. While it isn't compulsary, I highly recommend using  GPU support for speed. If you're interesred in setting up Tensorflow with GPU support, you may want to refer to this [excellent guide by Arun Mandal](https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/comment-page-3/#comments).
+
 ### Outline of steps ###
 
  1. Obtain the data from this  <small><a target="_blank" href="http://jmcauley.ucsd.edu/data/amazon/links.html">webiste</a></small>.
