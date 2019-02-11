@@ -18,6 +18,7 @@ Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Sp
 ### Outline of steps ###
 
  1. Obtain the data from this  <small><a target="_blank" href="http://jmcauley.ucsd.edu/data/amazon/links.html">webiste</a></small>.
+    I've tried this out for Amzon product files of 2 different categories: "Home and Kitchen" (Click <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Home_and_Kitchen.json.gz">here</a></small> for exact link),
  2. Clean the data for analysis.
  3. Convert the descriptions column to a list and have that run through Tensorflow's Universal Sentence Encoder . This computes a numpy   array of length 512 for each description.
  4. Calculate the cosine similarities matrix of all the embeddings in the file.
