@@ -49,6 +49,6 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
  5. Plot the images of the products using the url in the source file.
  6. Analyze results and possibly the plot descriptions as well.
  
- Steps 3,4,5 and 6 can be followed by referring to my files in the [notebooks folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/notebooks) **[Please look for files with the word "semantic" here]
+ Steps 3,4,5 and 6 can be followed by referring to my files in the [notebooks folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/notebooks) **[Please look for files with the word "semantic" here]**
  
  - - - -
