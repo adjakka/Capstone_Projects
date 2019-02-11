@@ -1,6 +1,9 @@
 Product recommendations
 ==============================
 
+YoO
+====
+
 I'll use Google's Universal Sentence encoder to generate embeddings of sentence and get recommendations.
 
 Project Organization
