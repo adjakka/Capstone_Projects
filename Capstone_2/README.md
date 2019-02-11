@@ -36,7 +36,7 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
     
     You may want to move the files to the [interim data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/interim) after the above step.
    <p align="justify"> 
-    Once the files have been unzipped, we'll have the json files in place. Json files aren't easy to work with and hence, its up to us to convert the data in this json file into a nice Pandas dataframe that we can use. The cleanup files can be found in the [interim data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/interim). But you may directly jump into the notebooks using the links below:  
+    Once the files have been unzipped, we'll have the json files in place. Json files aren't easy to work with and hence, its up to us to convert the data in this json file into a nice Pandas dataframe that we can use. The cleanup files can be found in the [interim data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/interim). But you may directly jump into the notebooks using the links below </p>:  
     * [Clean up Home and kitchen json](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/data/interim/Home_kitchen.ipynb)(for cleaning "Home and kitchen" json), 
     
     * [Clean up Office products json](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/data/interim/Office_products_cleanup.ipynb)(for Office products json file). 
@@ -44,11 +44,12 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
     The cleaning steps are exactly the same line for both files. They only differ by file names. Once done, you want to move the files to the [processed data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/processed)
     
     **[Note: I haven't added the raw and interim data files as they're too big. However, the processed data files are in place. If you have all the required dependencies mentioned in the requirements file, then the processed files are all you'll need to get started.]**
+ <p align="justify"> 
  3. Convert the descriptions column to a list and have that run through Tensorflow's Universal Sentence Encoder . This computes a numpy   array of length 512 for each description.
  4. Calculate the cosine similarities matrix of all the embeddings in the file.
  5. Plot the images of the products using the url in the source file.
  6. Analyze results and possibly the plot descriptions as well.
- 
+ </p> 
     Steps 3,4,5 and 6 can be followed by referring to my files in the [notebooks folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/notebooks) **[Please look for files with the word "semantic" here]**
-  </p>
+  
  - - - -
