@@ -1,4 +1,4 @@
-A Simple Project Recommendation System with NO training
+A Simple Project Recommendation System with Transfer Learning
 =======================================================
 
 ### Goal of the project ###
