@@ -2,9 +2,9 @@ A Simple Project Recommendation System with Transfer Learning
 =======================================================
 
 ### Goal of the project ###
-<center>
+<p align="center">
 Given an amazon product description, I'm trying to see how what products will be 'recommended'. For example, if I'm purchasing a Banana Republic t-shirt, I want to see if the recommendation system just recommends other t-shirts or/and other Banana Republic products. Once we have the results for a certain product, I'll first visually inspect the results (the recommended products) and then analyze results based on the descriptions. 
-</center>
+</p>
 ### Motivation for this project and practical application ###
 
 Any decent recommender model would have been trained using data from millions of products. For companies like Amazon, such large amounts of data is easy to come by. But that's not all now is it? Can the same recommender model be used for years at a stretch without any modifications? Probably not. Products evolve over time. Companies do away with older products and bring in newer ones every day. Companies like Amazon have the time and resources to ensure that their recommendation systems are up to date with the latest trends.
