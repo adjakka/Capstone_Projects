@@ -2,7 +2,7 @@ A Simple Project Recommendation System with Transfer Learning
 =======================================================
 
 ### Goal of the project ###
-<p align="center">
+<p align="justify">
 Given an amazon product description, I'm trying to see how what products will be 'recommended'. For example, if I'm purchasing a Banana Republic t-shirt, I want to see if the recommendation system just recommends other t-shirts or/and other Banana Republic products. Once we have the results for a certain product, I'll first visually inspect the results (the recommended products) and then analyze results based on the descriptions. 
 </p>
 ### Motivation for this project and practical application ###
