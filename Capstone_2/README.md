@@ -21,8 +21,9 @@ So what am I really talking about? I'll show you in pictures. After all, a pictu
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Filters.JPG "Product and its related products")
 What I did her was take the embedding of the descriptions (the first image) and then look for product descriptions with the closest descriptions. The pictures are only here to help us visalize the results. Now, if that's not interesting enough, then check this out:
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/movies.JPG "Product and its related products")
+<p align="justify">
 Now,how cool is that? Given the movie plot, it was able to find other fantasy/adventure.Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is!
-
+</p>
 ### Explanation of some basic concepts before a deep dive ###
 <p align="justify">
 Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/notebooks/Concepts_explained.ipynb">jupyter notebok</a></small> which is part of the same project. I've tried to simplify the concepts of Transfer Learning, word embeddings and how they help us determine the semantic relationship between different sentences.
