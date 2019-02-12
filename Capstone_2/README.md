@@ -26,7 +26,7 @@ What I did her was take the embedding of the descriptions (the first image) and 
  
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/movies.JPG "Product and its related products")
 <p align="justify">
-Now,how cool is that? Given the movie plot, it was able to find other fantasy/adventure.Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is!
+Now,how cool is that? Given the movie plot, it was able to find other fantasy/adventure.Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training the model (as in I didn't train it at all!)
 </p>
 
 ### Explanation of some basic concepts before a deep dive ###
