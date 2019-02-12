@@ -12,6 +12,10 @@ Any decent recommender model would have been trained using data from millions of
 </p>
 
 <p align="justify">
+But sadly, in the real world, data isn't easy to come by. What does this company do then? Probably scramble for data first and then, they'll probably hire a data specialist to build a recommndation system. But how do they keep up when products evolve? Will their machine learning model still be good in a few months time? An year's time? Probably not. Scarcity of data is something companies have to deal with. This is one of the areas (where data is in scarcity) where I aim to make a use case for this project.
+ </p>
+
+<p align="justify">
 Moreover, neural networks are being used for recommender systems. These models are designed using sophisticated state of the art architecture. The model needs to be designed first. Then it will be tested and modified again and again. Fine tuning deep learning models can be a monumental task. Now, what if I told you that we could come up with a decent recommender process that involves no training at all? Sounds too good to be true? Well, thanks to <small><a target="_blank" href="https://tfhub.dev/google/universal-sentence-encoder-large/3">Google's universal sentence encoder</a></small>, this is possible! Given a product description as text, the input will be mapped to a high dimensional vector of length 512. These "embeddings" are then used to compute similarities based on which practical recommendations can be made.
 </p>
 
