@@ -8,12 +8,13 @@ Given an amazon product description and its sentence embeddings computed using t
 
 ### Motivation for this project and practical application ###
 <p align="justify">
-Any decent recommender model would have been trained using data from millions of products. For companies like Amazon, such large amounts of data is easy to come by. But that's not all now is it? Can the same recommender model be used for years at a stretch without any modifications? Probably not. Products evolve over time. Companies do away with older products and bring in newer ones every day. Companies like Amazon have the time and resources to ensure that their recommendation systems are up to date with the latest trends.
+Any decent recommender model would have been trained using data from millions of products. For companies like Amazon, such large amounts of data is easy to come by. But that's not all! Can the same recommender model be used for a year or months at a stretch without any modifications? Probably! Or probably not. Products evolve over time. Companies do away with older products and bring in newer ones every day. Companies like Amazon have the time and resources to ensure that their recommendation systems are up to date with the latest trends.
 </p>
 
 <p align="justify">
-But sadly, in the real world, data isn't easy to come by. What does this company do then? Probably scramble for data first and then, they'll probably hire a data specialist to build a recommndation system. But how do they keep up when products evolve? Will their machine learning model still be good in a few months time? An year's time? Probably not. Scarcity of data is something companies have to deal with. This is one of the areas (where data is in scarcity) where I aim to make a use case for this project.
- </p>
+ It's also important to consider data scarcity, which is something a lot of companies have to deal with it. Good quality data isn't easy to come by. A machine learning model is only as good as the data it is fed. Even the best data scientists cannot work together to put together a state of the art machine learning model without data. More  data-->Better Machine Lerning models. This is one of my major motivations for this project. To counter this issue effectively.
+</p>
+
 
 <p align="justify">
 Moreover, neural networks are being used for recommender systems. These models are designed using sophisticated state of the art architecture. The model needs to be designed first. Then it will be tested and modified again and again. Fine tuning deep learning models can be a monumental task. Now, what if I told you that we could come up with a decent recommender process that involves no training at all? Sounds too good to be true? Well, thanks to <small><a target="_blank" href="https://tfhub.dev/google/universal-sentence-encoder-large/3">Google's universal sentence encoder</a></small>, this is possible! Given a product description as text, the input will be mapped to a high dimensional vector of length 512. These "embeddings" are then used to compute similarities based on which practical recommendations can be made.
