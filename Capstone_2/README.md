@@ -19,6 +19,9 @@ Moreover, neural networks are being used for recommender systems. These models a
 
 So what am I really talking about? I'll show you in pictures. After all, a picture is worth thousands of words!
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Filters.JPG "Product and its related products")
+What I did her was take the embedding of the descriptions (the first image) and then look for product descriptions with the closest descriptions. The pictures are only here to help us visalize the results. Now, if that's not interesting enough, then check this out:
+![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/movies.JPG "Product and its related products")
+Now,how cool is that? Given the movie plot, it was able to find other fantasy/adventure.Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is!
 
 ### Explanation of some basic concepts before a deep dive ###
 <p align="justify">
