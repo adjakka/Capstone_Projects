@@ -12,7 +12,7 @@ Any decent recommender model would have been trained using data from millions of
 </p>
 
 <p align="justify">
- It's also important to consider data scarcity, which is something a lot of companies have to deal with it. Good quality data isn't easy to come by. A machine learning model is only as good as the data it is fed. Even the best data scientists cannot work together to put together a state of the art machine learning model without data. More  data-->Better Machine Lerning models. This is one of my major motivations for this project. To counter this issue effectively.
+ It's also important to consider data scarcity, which is something a lot of companies have to deal with it. Good quality data isn't easy to come by. A machine learning model is only as good as the data it is fed. Even the best data scientists cannot work together to put together a state of the art machine learning model without data. More  data-->Better Machine Lerning models. This is one of my major motivations for this project. To counter data scarcity.
 </p>
 
 
