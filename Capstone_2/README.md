@@ -45,7 +45,7 @@ Please refer to this [requirements file](https://github.com/adjakka/Springboard_
 
 #### Installing Tensorflow-GPU (Optional) ####
 <p align="justify">
-GPUs are used to dramatically increase the speed of tasks involving numerical computations in Python. While it isn't compulsary, I highly recommend using  GPU support for speed. If you're using **Linux** and are interesred in setting up Tensorflow with GPU support, you may want to refer to this <small><a target="_blank" href="https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/comment-page-3/#comments">excellent guide by Arun Mandal</a></small>.
+GPUs are used to dramatically increase the speed of tasks involving numerical computations in Python. While it isn't compulsary, I highly recommend using  GPU support for speed. If you're interesred in setting up Tensorflow with GPU support, you may want to refer to this <small><a target="_blank" href="https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/comment-page-3/#comments">excellent guide for Linux users by Arun Mandal</a></small>. Mac users may want to refer to <small><a target="_blank" href="https://gist.github.com/ageitgey/819a51afa4613649bd18">this guide</a></small>
  </p>
  
 ### Outline of steps ###
