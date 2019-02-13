@@ -17,7 +17,7 @@ Any decent recommender model would have been trained using data from millions of
 
 
 <p align="justify">
-Moreover, neural networks are being used for recommender systems. These models are designed using sophisticated state of the art architecture. The model needs to be designed first. Then it will be tested and modified again and again. Fine tuning deep learning models can be a monumental task. Now, what if I told you that we could come up with a decent recommender process that involves no training at all? Sounds too good to be true? Well, thanks to <small><a target="_blank" href="https://tfhub.dev/google/universal-sentence-encoder-large/3">Google's universal sentence encoder</a></small>, this is possible! Given a product description as text, the input will be mapped to a high dimensional vector of length 512. These "embeddings" are then used to compute similarities based on which practical recommendations can be made.
+Moreover, neural networks are being used for recommender systems. These models are designed using sophisticated state of the art architecture. The model needs to be designed first. Then they will be tested and modified again and again. Fine tuning deep learning models can be a monumental task. Now, what if I told you that we could come up with a decent recommender process that involves no training at all? Sounds too good to be true? Well, thanks to <small><a target="_blank" href="https://tfhub.dev/google/universal-sentence-encoder-large/3">Google's universal sentence encoder</a></small>, this is possible! Given a product description as text, the input will be mapped to a high dimensional vector space of (512 dimensions). These "embeddings" are then used to compute similarities based on which practical recommendations can be made.
 </p>
 
 ### Sneak peek of what we're getting into ###
@@ -26,12 +26,12 @@ So what am I really talking about? I'll show you in pictures. After all, a pictu
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Filters.JPG "Product and its related products")
 
 <p align="justify">
-What I did her was take the embedding of the descriptions (the first image) and then look for product descriptions with the closest descriptions. The pictures are only here to help us visalize the results. Now, if that's not interesting enough, then check this out:
+What I did her was take the embedding of the descriptions (the first product here) and then look for descriptions of products that were similar to the first product. The pictures are only here to help us visalize the results. Now, if that's not interesting enough, then check this out:
  </p>
  
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/movies.JPG "Product and its related products")
 <p align="justify">
-Now,how cool is that? Given the movie plot of Guardians of the Galaxy, it was able to find other fantasy/action/adventure/Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training the model. All I did was use the model as is with the pretrained weights! 
+Now, how cool is that? Given the movie plot of Guardians of the Galaxy, the module was able to find other fantasy/action/adventure/Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training the model. All I did was use the model as is with the pretrained weights! 
 </p>
 
 ### Explanation of some basic concepts before a deep dive ###
@@ -71,7 +71,7 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
  3. Convert the descriptions column to a list and have that run through Tensorflow's Universal Sentence Encoder . This computes a numpy   array of length 512 for each description.
  4. Calculate the cosine similarities matrix of all the embeddings in the file.
  5. Plot the images of the products using the url in the source file.
- 6. Analyze results and possibly the plot descriptions as well.
+ 6. Analyze results and possibly the product descriptions as well.
     Steps 3,4,5 and 6 can be followed by referring to my files in the [notebooks folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/notebooks) **[Please look for files with the word "semantic" here]**
     
 
