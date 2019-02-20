@@ -29,9 +29,9 @@ So what am I really talking about? I'll show you in pictures. After all, a pictu
 What I did her was take the embedding of the descriptions (the first product here) and then look for descriptions of products that were similar to the first product. The pictures are only here to help us visalize the results. Now, if that's not interesting enough, then check this out:
  </p>
  
-![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/movies.JPG "Product and its related products")
+![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Movies.JPG "Product and its related products")
 <p align="justify">
-Now, how cool is that? Given the movie plot of Guardians of the Galaxy, the module was able to find other fantasy/action/adventure/Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training the model. All I did was use the model as is with the pretrained weights! 
+How interesting, sin't it? Given the movie plot of Guardians of the Galaxy, the module was able to find other fantasy/action/adventure/Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training the model. All I did was use the model as is with the pretrained weights! 
 </p>
 
 ### Explanation of some basic concepts before a deep dive ###
