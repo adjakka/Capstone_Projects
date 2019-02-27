@@ -3,7 +3,7 @@ A Simple Product Recommendation System with Transfer Learning
 
 ### Goal of the project ###
 <p align="justify">
-Given an amazon product description and its sentence embeddings computed using the sentence encoder, can we compute the nearest neighbor embeddings and have the encoder work like a recommendation system? For example, if we have a Banana Republic t-shirt, using this method, can we expect to see other similar t-shirts or other Banana Republic products? That would be very useful for an e-commerce/retail company, wouldn't you agree? 
+Given an amazon product description, and its sentence embeddings computed using the sentence encoder, can we compute the nearest neighbor embeddings and have the encoder work like a recommendation system? For example, if we have a Banana Republic t-shirt, using this method, can we expect to see other similar t-shirts or other Banana Republic products? That would be very useful for an e-commerce/retail company, wouldn't you agree? 
 </p>
 
 ### Motivation for this project and practical application ###
@@ -17,21 +17,21 @@ Any decent recommender model would have been trained using data from millions of
 
 
 <p align="justify">
-Moreover, neural networks are being used for recommender systems. These models are designed using sophisticated state of the art architecture. The model needs to be designed first. Then they will be tested and modified again and again. Fine tuning deep learning models can be a monumental task. Now, what if I told you that we could come up with a decent recommender process that involves no training at all? Sounds too good to be true? Well, thanks to <small><a target="_blank" href="https://tfhub.dev/google/universal-sentence-encoder-large/3">Google's universal sentence encoder</a></small>, this is possible! Given a product description as text, the input will be mapped to a high dimensional vector space of (512 dimensions). These "embeddings" are then used to compute similarities based on which practical recommendations can be made.
+Moreover, neural networks are being used for recommender systems. These models are designed using sophisticated state of the art architecture. The model needs to be designed first. Then they will be tested and modified again and again. Fine tuning deep learning models can be a monumental task. Now, what if I told you that we could come up with a decent recommender process that involves no training at all? Sounds too good to be true? Well, thanks to <small><a target="_blank" href="https://tfhub.dev/google/universal-sentence-encoder-large/3">Google's universal sentence encoder</a></small>, this is possible! Given a product description as text, this text input will be mapped to a high dimensional vector space (512 dimensions). These "embeddings" are then used to compute similarities based on which practical recommendations can be made.
 </p>
 
 ### Sneak peek of what we're getting into ###
 
-So what am I really talking about? I'll show you in pictures. After all, a picture is worth thousands of words!
+So, what am I really talking about? Allow me to illustrate using pictures. After all, a picture is worth thousands of words!
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Filters.JPG "Product and its related products")
 
 <p align="justify">
-What I did her was take the embedding of the descriptions (the first product here) and then look for descriptions of products that were similar to the first product. The pictures are only here to help us visalize the results. Now, if that's not interesting enough, then check this out:
+What I did here was take the embedding of the descriptions (the first product here) and then, look for descriptions of products that were similar to the first product. The pictures are for illustrative purposes alone. Check out another interesting result:
  </p>
  
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Movies.JPG "Product and its related products")
 <p align="justify">
-How interesting, sin't it? Given the movie plot of Guardians of the Galaxy, the module was able to find other fantasy/action/adventure/Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training the model. All I did was use the model as is with the pretrained weights! 
+How interesting, isn't it? Given the movie plot of Guardians of the Galaxy, the module was able to find other fantasy/action/adventure/Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training or building a model of our own. All I did was use the model as is with the pretrained weights! 
 </p>
 
 ### Explanation of some basic concepts before a deep dive ###
@@ -43,7 +43,7 @@ Please refer to my <small><a target="_blank" href="https://github.com/adjakka/Sp
 
 Please refer to this [requirements file](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/requirements.txt) to install all dependencies needed for this project.
 
-#### Installing Tensorflow-GPU (Optional) ####
+#### Installing Tensorflow with GPU support (Optional) ####
 <p align="justify">
 GPUs are used to dramatically increase the speed of tasks involving numerical computations in Python. While it isn't compulsary, I highly recommend using  GPU support for speed. If you're interesred in setting up Tensorflow with GPU support, you may want to refer to this <small><a target="_blank" href="https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/comment-page-3/#comments">excellent guide for Linux users by Arun Mandal</a></small>. Mac users may want to refer to <small><a target="_blank" href="https://gist.github.com/ageitgey/819a51afa4613649bd18">this guide</a></small>
  </p>
