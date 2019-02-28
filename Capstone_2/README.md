@@ -55,7 +55,7 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
  
 ### Outline of steps ###
  1. Obtain the data from this  <small><a target="_blank" href="http://jmcauley.ucsd.edu/data/amazon/links.html">webiste</a></small>.
-    I've tried this out for Amzon product files of 2 different categories: "Home and Kitchen" (Click <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Home_and_Kitchen.json.gz">here</a></small> for direct link), and "Office Products" (<small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Office_Products.json.gz">direct link</a></small>). 
+    I've tried this out for Amzon product files of 2 different categories: "Home and Kitchen" (Click <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Home_and_Kitchen.json.gz">here</a></small> for direct link), and "Office Products" (<small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Office_Products.json.gz">direct link</a></small>). Clothes and jewelry json file can be directly <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Clothing_Shoes_and_Jewelry.json.gz"> downloaded here</a></small>
     The movies dataset can be downloaded <small><a target="_blank" href="https://www.kaggle.com/rounakbanik/the-movies-dataset">here.</a></small>
     
     Once downloaded, you may want to move the files into the raw data folder.
@@ -71,6 +71,8 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
     * [Clean up Home and kitchen json](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/data/interim/Home_kitchen.ipynb)(for cleaning "Home and kitchen" json), 
     
     * [Clean up Office products json](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/data/interim/Office_products_cleanup.ipynb)(for Office products json file). 
+    
+    * [Clean up clothes and jewelry json](https://github.com/adjakka/Capstone_Projects/blob/master/Capstone_2/data/interim/Clothing_data_preprocess.ipynb)(for clothes and jewelry json file). 
     
     * [Clean up movies data file](https://github.com/adjakka/Capstone_Projects/blob/master/Capstone_2/data/interim/Movie_file_cleanup.ipynb)(for movies data file). 
     
