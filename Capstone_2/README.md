@@ -64,6 +64,8 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
     
     * [Clean up Office products json](https://github.com/adjakka/Springboard_Capstone_Projects/blob/master/Capstone_2/data/interim/Office_products_cleanup.ipynb)(for Office products json file). 
     
+    * [Clean up movies data file](https://github.com/adjakka/Capstone_Projects/blob/master/Capstone_2/data/interim/Movie_file_cleanup.ipynb)(for movies data file). 
+    
     The cleaning steps are exactly the same line for both files. They only differ by file names. Once done, you want to move the files to the [processed data folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/data/processed)
     
     **[Note: I haven't added the raw and interim data files as they're too big. However, the processed data files are in place. If you have all the required dependencies mentioned in the requirements file, then the processed files are all you'll need to get started.]**
