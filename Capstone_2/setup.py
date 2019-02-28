@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='I'll use Google's Universal Sentence encoder to generat embeddings of sentence and get recommendations.',
+    description='Google's Universal Sentence encoder will be leveraged to generate sentence embeddings of product descriptions and get recommendations.',
     author='Aditya Jakka',
     license='MIT',
 )
