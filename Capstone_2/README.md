@@ -50,7 +50,9 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
  
 ### Outline of steps ###
  1. Obtain the data from this  <small><a target="_blank" href="http://jmcauley.ucsd.edu/data/amazon/links.html">webiste</a></small>.
-    I've tried this out for Amzon product files of 2 different categories: "Home and Kitchen" (Click <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Home_and_Kitchen.json.gz">here</a></small> for direct link), and "Office Products" (<small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Office_Products.json.gz">direct link</a></small>). Once downloaded, you may want to move the files into the raw data folder.
+    I've tried this out for Amzon product files of 2 different categories: "Home and Kitchen" (Click <small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Home_and_Kitchen.json.gz">here</a></small> for direct link), and "Office Products" (<small><a target="_blank" href="http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Office_Products.json.gz">direct link</a></small>). 
+    The movies dataset can be downloaded <small><a target="_blank" href="https://www.kaggle.com/rounakbanik/the-movies-dataset">here</a></small>
+    Once downloaded, you may want to move the files into the raw data folder.
  2. Clean the data for analysis.
     Once the raw data files have been downloaded, they need to be unzipped. I was using Ubuntu 18.04. Here's how you would do it--> Navigate to the location of your raw data files. Then run the following commands (for Ubuntu users) using terminal:
     * gunzip meta_Home_and_Kitchen.json.gz
