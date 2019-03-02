@@ -29,6 +29,12 @@ So, what am I really talking about? Allow me to illustrate using pictures. After
 What I did here was take the embedding of the descriptions (the first product here) and then, look for descriptions of products that were similar to the first product. The pictures are for illustrative purposes alone. Check out another interesting result:
  </p>
  
+ ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/kitchen_products.JPG "Product and its related products")
+ <p align="justify"> 
+ Given a blender glass jar, we see that the related products are either blender parts or other blenders. Let's check out something from the clothing category next!
+ </p>
+ 
+ 
  ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/clothes.JPG "Product and its related products")
 <p align="justify"> 
  Given a Saints jacket (Saints are an NFL team), we get jackets of other NFL brands and even some earrings. This is because it is a womens jacket. I hope we can agree that this is pretty intriguing!
