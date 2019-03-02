@@ -5,6 +5,10 @@
 * [Word2vec explained](https://www.youtube.com/watch?v=D-ekE-Wlcds "Named link title")
 * [Word2vec tutorial using Game of Thrones data set](https://www.youtube.com/watch?v=pY9EwZ02sXU "Named link title")
 
+#### Transfer Learning ####
+
+* [Transfer Learning explained](https://www.analyticsvidhya.com/blog/2017/06/transfer-learning-the-art-of-fine-tuning-a-pre-trained-model/ "Named link title")
+
 #### Universal Sentence Encoder ####
 
 * [Transformer Encoder version: heavy version](https://tfhub.dev/google/universal-sentence-encoder-large/3 "Named link title")
