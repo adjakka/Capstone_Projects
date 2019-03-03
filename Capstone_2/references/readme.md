@@ -13,6 +13,10 @@
 
 * [Transfer Learning explained](https://www.analyticsvidhya.com/blog/2017/06/transfer-learning-the-art-of-fine-tuning-a-pre-trained-model/ "Named link title")
 
+#### Cosine Similarity ####
+
+* [Cosine Similarity explained](https://www.machinelearningplus.com/nlp/cosine-similarity/ "Named link title")
+
 #### Universal Sentence Encoder ####
 
 * [Transformer Encoder version: heavy version](https://tfhub.dev/google/universal-sentence-encoder-large/3 "Named link title")
