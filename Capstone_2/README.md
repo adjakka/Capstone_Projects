@@ -40,7 +40,7 @@ What I did here was take the embedding of the descriptions (the first product he
  Given a Saints jacket (Saints are an NFL team), we get jackets of other NFL brands and even some earrings. This is because it is a womens jacket. I hope we can agree that this is pretty intriguing!
  
  Since I'm a movie buff, let's check out another result:
-![picture alt]( "Product and its related products")
+![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/movies.JPG "Product and its related products")
 <p align="justify">
 How interesting, isn't it? Given the movie plot of Guardians of the Galaxy, the module was able to find other fantasy/action/adventure/Superhero movies! Just goes to show how well trained the Universal Sentence Encoder is! We could achieve something so meaningful without even training or building a model of our own. All I did was use the model as is with the pretrained weights! 
 </p>
