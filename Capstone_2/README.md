@@ -23,6 +23,7 @@ Moreover, neural networks are being used for recommender systems. These models a
 ### Sneak peek of what we're getting into ###
 
 So, what am I really talking about? Allow me to illustrate using pictures. After all, a picture is worth thousands of words!
+
 ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Kitchen_items.JPG "Product and its related products")
 
 <p align="justify">
