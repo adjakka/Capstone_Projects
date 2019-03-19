@@ -92,6 +92,6 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
  6. Analyze results and possibly the product descriptions as well.
     Steps 3,4,5 and 6 can be followed by referring to my files in the [notebooks folder](https://github.com/adjakka/Springboard_Capstone_Projects/tree/master/Capstone_2/notebooks) **[Please look for files with the word "semantic" here]**
     
-
+For a detailed report on this project, please refer to [this PDF.](https://github.com/adjakka/Capstone_Projects/blob/master/Capstone_2/reports/Capstone_2_analysis.pdf)
   
  - - - -
