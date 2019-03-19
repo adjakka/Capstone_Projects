@@ -23,13 +23,13 @@ Moreover, neural networks are being used for recommender systems. These models a
 ### Sneak peek of what we're getting into ###
 
 So, what am I really talking about? Allow me to illustrate using pictures. After all, a picture is worth thousands of words!
-![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Filters.JPG "Product and its related products")
+![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/Kitchen_items.JPG "Product and its related products")
 
 <p align="justify">
 What I did here was take the embedding of the descriptions (the first product here) and then, look for descriptions of products that were similar to the first product. The pictures are for illustrative purposes alone. Check out another interesting result:
  </p>
  
- ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/kitchen_products.JPG "Product and its related products")
+ ![picture alt](https://github.com/adjakka/Miscellaneous/blob/master/kithen_blender.JPG "Product and its related products")
  <p align="justify"> 
  Given a blender glass jar, we see that the related products are either blender parts or other blenders. Let's check out something from the clothing category next!
  </p>
