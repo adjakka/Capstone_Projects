@@ -1,4 +1,4 @@
-A Simple Product Recommendation System with Transfer Learning
+A Practical Product Recommendation System with Transfer Learning
 =======================================================
 
 ### Goal of the project ###
