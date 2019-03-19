@@ -69,6 +69,7 @@ GPUs are used to dramatically increase the speed of tasks involving numerical co
     Once the raw data files have been downloaded, they need to be unzipped. I was using Ubuntu 18.04. Here's how you would do it--> Navigate to the location of your raw data files. Then run the following commands (for Ubuntu users) using terminal:
     * gunzip meta_Home_and_Kitchen.json.gz
     * gunzip meta_Office_Products.json.gz
+    * gunzip meta_Clothing_Shoes_and_Jewelry.json.gz
    
     (Mac users may want to refer to this [guide](https://www.dummies.com/computers/macs/how-to-zip-and-unzip-files-on-your-mac/) to unzip files)
     
