@@ -111,7 +111,7 @@ tensorflow-hub==0.2.0
     - setuptools [required: Any, installed: 40.7.3]
     - six [required: >=1.9, installed: 1.12.0]
   - six [required: >=1.10.0, installed: 1.12.0]
-Twisted==17.9.0
+Twisted==19.7.0
 ufw==0.35
 unattended-upgrades==0.1
 urllib3==1.22
