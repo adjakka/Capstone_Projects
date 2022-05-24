@@ -72,7 +72,7 @@ screen-resolution-extra==0.0.0
 service-identity==16.0.0
 ssh-import-id==5.7
 systemd-python==234
-tensorflow==1.12.0
+tensorflow==2.6.4
   - absl-py [required: >=0.1.6, installed: 0.7.0]
     - six [required: Any, installed: 1.12.0]
   - astor [required: >=0.6.0, installed: 0.7.1]
